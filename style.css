@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Sahel";
+    src: url("assets/fonts/Sahel/Sahel-VF.ttf") format('TrueType'),
+         url("assets/fonts/Sahel/Sahel-VF.woff2") format("woff2");
+}
+
+.light {
+    font-variation-settings: "wght" 400, "wdth" 200, "itlc" 500, "opsz" 200, "slnt" 200;
+}
+
+.normal {
+    font-variation-settings: "wght" 500;
+}
+
+.semi-bold {
+    font-variation-settings: "wght" 600;
+}
+
+.bold {
+    font-variation-settings: "wght" 700;
+}
+
+.black {
+    font-variation-settings: "wght" 800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    direction: rtl;
+    font-family: 'Sahel', serif;
+    color: white;
+}
+
+header {
+    float: right;
+    width: 100%;
+    background-color: #e63946;
+}
+
+header h1 {
+    font-size: 32px;
+    padding: 12px 0;
+}
+
+header h2 {
+    font-size: 24px;
+    padding: 12px 0;
+}
+
+section {
+    float: right;
+    width: 100%;
+    background-color: #1d3557;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 2;
+    padding: 12px 0;
+}
+
+#poem {
+    float: right;
+    width: 100%;
+    background-color: #457b9d;
+    padding: 12px 0;
+}
+
+#poem div {
+    padding: 0 !important;
+}
+
+#poem p {
+    float: right;
+    width: 40%;
+    padding: 12px 5%;
+    font-size: 18px;
+}
+
+footer, body {
+    background-color: #a8dadc;
+}
+
+footer {
+    float: right;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.holder {
+    width: 1024px;
+    margin: auto;
+    padding: 24px 0;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
